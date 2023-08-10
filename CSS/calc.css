@@ -1,0 +1,67 @@
+.calculator{
+    border: 1px solid #717377;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border-radius: 16px;
+    padding-top: 30px;
+    margin-top: 10%;
+    background: white   ;
+    box-shadow: 0px 3px 15px rgba(125, 11, 93, 0.5);
+
+}
+
+#inputBox1{
+    width: 320px;
+    height:20px;    
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #de6666;
+}
+
+#inputBox1::placeholder{
+    color: #c852d3;
+}
+
+.buttonc{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #c852d3;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.buttonequalBtn{
+    background-color: #5e2c03;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(26, 3, 3, 0.1);
+    cursor: pointer;
+}
+
+.buttonoperator{
+    color: #510564;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}

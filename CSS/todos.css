@@ -1,0 +1,89 @@
+.todo{
+    background: #ffffff;
+    width:100%;
+    max-width: 600px;
+    margin:50px auto 20px ;
+    padding: 40px 30px 70px;
+    border-radius:10px;
+}
+.todo h2{
+    color:rgb(3, 0, 84);
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    font-size:x-large;
+    font-weight: bold;
+    padding-left: 11px;
+}
+.todo h2 img{
+    margin-left: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom:25px ;
+}
+#input-boxt{
+    flex:1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size:large;
+}
+#todobutton{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    color: #ffffff;
+    background-color: #d346de;
+    border-radius: 30px;
+    font-size: large;
+    cursor: pointer;
+
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/radio-button.png);
+    background-size: cover;
+    background-position: center;
+    top: 8px;
+    left: 8px;
+}
+ul li.checked{
+    text-decoration: line-through;
+    color: #555;
+}
+ul li.checked::before{
+    background-image: url(images/Asset\ 2.png);
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    color: #555;
+}
+ul li span:hover{
+background: #edeef0;
+}
