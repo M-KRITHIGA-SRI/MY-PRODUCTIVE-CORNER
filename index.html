@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MY PRODUCTIVE CORNER</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/favicon.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="todos.css">
+    <link rel="stylesheet" href="calc.css">
+    <link rel="stylesheet" href="calendar.css">
+
+
+</head>
+<body vlink="ffffff">
+  <div class="navbar" >
+    <img src="images/Asset 4.png" height="40px">
+    <p><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></p>
+    <a href="https://drive.google.com/drive/my-drive"><img src="images/icons8-google-drive-96.png" height="40px"></a>
+  </div>
+  <h1 align="center">MY PRODUCTIVE CORNER</h1><br>
+    <br><br>
+      <section class="content-section">
+        <div class="content-wrapper">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input id="search-input" class="search-input" type="text">
+                    <i class="fas fa-keyboard"></i>
+                    <i class="fas fa-microphone"></i>
+                </div>
+          </div>
+      </section>
+      <div class="clock">
+        <div id="hour"></div>
+        <span>:</span>
+        <div id="minute"></div>
+        <span>:</span>
+        <div id="seconds"></div>
+  </div>
+      <br><br><br><br><br><br>
+      <div class="grid-container">
+        <div class="grid-item1">
+          <div class="todo">
+            <h2>To Do List</h2>
+            <div class="row">
+                <input type="text" id="input-boxt" placeholder="Add your task">
+                <button onclick="addtask()" id="todobutton">Add</button>
+            </div>
+            <ul id="list-container">
+               <!--<li class="checked">TJKMJX</li>
+                <li>KERJMF</li>
+                <li>LJF</li>--->
+                
+            </ul>
+          </div>
+        </div>
+        <div class="grid-item2">
+          <div class="calculator">
+            <input type="text" id="inputBox1" placeholder="0" />
+            <div>
+              <button class="buttonoperator">AC</button>
+              <button class="buttonoperator">DEL</button>
+              <button class="buttonoperator">%</button>
+              <button class="buttonoperator">/</button>
+            </div>
+            <div>
+              <button class="buttonc">7</button>
+              <button class="buttonc">8</button>
+              <button class="buttonc">9</button>
+              <button class="buttonoperator">*</button>
+            </div>
+            <div>
+              <button class="buttonc">4</button>
+              <button class="buttonc">5</button>
+              <button class="buttonc">6</button>
+              <button class="buttonoperator">-</button>
+            </div>
+            <div>
+              <button class="buttonc">1</button>
+              <button class="buttonc">2</button>
+              <button class="buttonc">3</button>
+              <button class="buttonoperator">+</button>
+            </div>
+    
+            <div>
+              <button class="buttonc">00</button>
+              <button class="buttonc">0</button>
+              <button class="buttonc">.</button>
+              <button class="buttonequalBtn">=</button>
+            </div>
+          </div>
+        </div>
+      <div class="grid-item3">
+        <div class="light">
+
+          <div class="calendar">
+              <div class="calendar-header">
+                  <span class="month-picker" id="month-picker">February</span>
+                  <div class="year-picker">
+                      <span class="year-change" id="prev-year">
+                          <pre><</pre>
+                      </span>
+                      <span id="year">2021</span>
+                      <span class="year-change" id="next-year">
+                          <pre>></pre>
+                      </span>
+                  </div>
+              </div>
+              <div class="calendar-body">
+                  <div class="calendar-week-day">
+                      <div>Sun</div>
+                      <div>Mon</div>
+                      <div>Tue</div>
+                      <div>Wed</div>
+                      <div>Thu</div>
+                      <div>Fri</div>
+                      <div>Sat</div>
+                  </div>
+                  <div class="calendar-days"></div>
+              </div>
+              
+              <div class="month-list"></div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <script src="script.js"></script>
+      <script src="todo.js"></script>
+      <script src="calci.js"></script>
+      <script src="calender.js"></script>
+      
+    
+
+</body>      
+      <!-- Script -->
+
+</html>
