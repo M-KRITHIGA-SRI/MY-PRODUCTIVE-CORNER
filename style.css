@@ -159,14 +159,14 @@
     padding-left: 1%;
 }
 }
-@media (max-width:600px) {
+@media (max-width:500px) {
   .h1{
     font-size: 60px;
     align-items: center;
   }
   .grid-container{
-    grid-template-columns: repeat(1,70%);
-    display:grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 300px;
     grid-row-gap: 60px;
     grid-column-gap:2px; 
     padding-top: 4%;
