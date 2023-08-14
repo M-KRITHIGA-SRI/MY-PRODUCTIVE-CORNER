@@ -159,3 +159,36 @@
     padding-left: 1%;
 }
 }
+@media (max-width:600px) {
+  .h1{
+    font-size: 60px;
+    align-items: center;
+  }
+  .grid-container{
+    grid-template-columns: repeat(1,70%);
+    display:grid;
+    grid-row-gap: 60px;
+    grid-column-gap:2px; 
+    padding-top: 4%;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+    .search-bar {
+    border: 1px solid rgb(255, 255, 255);
+    width: 500px;
+    height: 45px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+     .clock {
+    width: 28.25em;
+    height: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+  }
+}
